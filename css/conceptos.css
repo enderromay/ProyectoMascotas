@@ -1,0 +1,32 @@
+#conceptos .contenedor{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+#conceptos article{
+    margin: 15px;
+    max-width: 280;
+    overflow: hidden;
+}
+#conceptos img{
+    width: 100%;
+
+}
+#conceptos videos{
+    max-width: 280px;
+}
+
+h3, h4{
+    text-align: center;
+}
+
+@media (min-width: 650px) {
+    #conceptos video{
+        max-width: 375px;
+    }
+}
